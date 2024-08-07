@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:id="@+id/turaName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/turaLength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:layout_below="@+id/turaName"/>
+
+        <TextView
+            android:id="@+id/turaDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:layout_below="@+id/turaLength"/>
+
+        <TextView
+            android:id="@+id/turaPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:layout_below="@+id/turaDate"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/turaPrice"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/turaSignup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_up"
+                android:layout_margin="5dp"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/turaDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:layout_margin="5dp"
+                android:padding="8dp" />
+
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

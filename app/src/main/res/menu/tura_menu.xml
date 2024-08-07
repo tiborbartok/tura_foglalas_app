@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_bar"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        />
+
+    <item
+        android:id="@+id/viewSelector"
+        android:title="Change view"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/logoutButton"
+        android:title="Logout"
+        app:showAsAction="never"
+        />
+</menu>

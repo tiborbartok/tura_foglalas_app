@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Turafoglalas</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="password_repeat">Password repeat</string>
+    <string name="e_mail_address">E-mail address</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="phone_number">Phone number for contact during hike</string>
+    <string name="login_with_your_google_account">Login with your Google account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="delete">Delete</string>
+
+    <string-array name="tura_Names">
+        <item>Balaton-felvidék Hike</item>
+        <item>Szeged Cityhike</item>
+        <item>Zemplén Hike</item>
+        <item>Budapest Hike</item>
+        <item>Győr Hike</item>
+        <item>Debrecen Hike</item>
+        <item>Miskolc Hike</item>
+    </string-array>
+    <string-array name="tura_Lengths">
+        <item>75km</item>
+        <item>6km</item>
+        <item>25km</item>
+        <item>10km</item>
+        <item>23km</item>
+        <item>35km</item>
+        <item>963km</item>
+    </string-array>
+    <string-array name="tura_Dates">
+        <item>2024.08.12</item>
+        <item>2024.06.14</item>
+        <item>2024.09.02</item>
+        <item>2024.11.29</item>
+        <item>2024.12.01</item>
+        <item>2024.10.22</item>
+        <item>2024.12.24</item>
+    </string-array>
+    <string-array name="tura_Prices">
+        <item>$30.00</item>
+        <item>$3.00</item>
+        <item>$5.00</item>
+        <item>$4.00</item>
+        <item>$28.00</item>
+        <item>$12.99</item>
+        <item>$999.999.999</item>
+    </string-array>
+</resources>
